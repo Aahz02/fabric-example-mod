@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "testmod",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -19,7 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.aahz.testmod.TestMod"
+    ],
+    "client": [
+      "com.aahz.testmod.TestModClient"
     ]
   },
   "mixins": [
